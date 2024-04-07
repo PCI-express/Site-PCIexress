@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/id-styles.css">
+    <link rel="stylesheet" href="css/containers.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>PCIexpress</title>
+    <script src="js/scripts.js" defer></script>
+    <script src="js/modals.js" defer></script>
+</head>
+<body>
+    <div class="header-bg flex-column">
+        <div id="bg-img"></div>
+        <header>
+            <div class="info">
+                <div class="container flex-items-center-100p">
+                    <span class="logo"><a href="index.html">PCIexpress</a></span>
+                    <div>
+                        <span class="phone-number">Мы вседа рады помочь по телефону +7 909 543 54 44</span>
+                        <button href="#modal-ring" class="header-btn modal-link">ЗАКАЗАТЬ ЗВОНОК</button>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <div class="container flex-items-center-100p">
+                    <a href="#news">НОВОСТИ</a>
+                    <a href="#services">УСЛУГИ</a>
+                    <a href="#catalog">КАТАЛОГ</a>
+                    <a href="#team">КОМАНДА</a>
+                    <a href="#brands">БРЕНДЫ</a> 
+                    <a href="#advantages">ПРЕИМУЩЕСТВА</a>
+                    <a href="#about">О НАС</a>          
+                </div>
+            </nav>
+        </header> 
+        <div class="header-info flex-items-center">
+            <div class="triangles-left flex-space-between flex-column">
+                <img src="img/треугольники_фон_1.png"></img>
+                <img src="img/треугольники_фон_2.png"></img>
+            </div>
+            <div class="title">
+                <div class="flex-center">
+                    <h1>PCIexpress</h1>
+                </div>
+                <div class="flex-center">
+                    <p>Крупнейший компьютерный центр с лусми серверами и компьютерной техникой от известных мыровых проихводителей</p>
+                </div>
+                <div class="flex-center">
+                    <button class="title-btn">В КАТАЛОГ</button>
+                </div>  
+            </div>
+            <div class="triangles-right flex-space-between flex-column">
+                <img src="img/треугольники_фон_3.png"></img>
+                <img src="img/треугольники_фон_4.png"></img>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="btn-upper"></div>
+        <section class="block">
+            <div class="container">
+                <h2><a name="news"></a>Новости</h2>
+                <div class="cards">
+                    <div class="card flex-items-center news" id="news-1">
+                        <p>
+                            PCIexpress вводит
+                            новую линейку
+                            суперпомпьютеров
+                        </p>
+                        <div class="blackout"></div>
+                    </div>
+                    <div class="card flex-items-center news" id="news-2">
+                        <p>
+                            PCIexpress запусткает
+                            образовательные
+                            программы по IT
+                        </p>
+                        <div class="blackout"></div>
+                    </div>
+                    <div class="card flex-items-center news" id="news-3">
+                        <p>
+                            Сервесный центр 
+                            PCIexpress: Быстрый и 
+                            надежный ремонт техники
+                        </p>
+                        <div class="blackout"></div>
+                    </div>
+                    <div class="card flex-items-center news" id="news-4">
+                        <p>
+                            PCIexpress открывает 
+                            Центр иследований
+                            и разработок
+                        </p> 
+                        <div class="blackout"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="subscription">
+            <div class="container flex-items-center-100p">
+                <p>Подпишись на нашу рассылку
+                и оставайся в курсе событий</p>
+                <input type="text" placeholder="Имя" class="subscribe-input">
+                <input type="text" placeholder="Email" class="subscribe-input">
+                <input type="button" value="ПОДПИСАТЬСЯ" class="subscribe-btn">
+            </div>
+        </div>
+        <section class="block">
+            <div class="container">
+                <h2><a name="services"></a>Наши услуги</h2>
+                <div class="flex-center">
+                    <div class="text">
+                        <span>Продажа компьютеров</span> <br>
+                        Мы предлагаем широкий
+                        ассортимент компьютеров, от
+                        мощных рабочих станций до
+                        ноутбуков, отвечающих самым
+                        современным требованиям. Наши
+                        продукты отличаются высоко
+                        надежностью и
+                        производительностью.
+                    </div>
+                    <div class="text">
+                        <span>Ремонт техники</span> <br>
+                        В случае поломки или
+                        неисправности вашего
+                        оборудования, наши 
+                        профессионалы оперативно и 
+                        качественно проведут ремонт. Мы
+                        заботимся о сохранности ваших
+                        данных и предоставляем гарантию
+                        на все выполненные работы.
+                    </div>
+                    <div class="text">
+                        <span>Аренда серверов</span> <br>
+                        Для тех, кто ценит гибкость и 
+                        масштабируемость, мы
+                        предлагаем аренду
+                        высокопроизводительных
+                        серверов. Наши серверные
+                        решения отвечают самым
+                        строгим требованиям
+                        безопасности и эффективности.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gray-block shadow" id="catalog">
+            <div class="container">
+                <div class="flex-items-center-100p">
+                    <h2><a name="catalog" ></a>Каталог</h2>
+                    <div>
+                        <button class="catalog-btn" id="all-btn">Все</button>
+                        <button class="catalog-btn" id="comp-btn">Компьюетры</button>
+                        <button class="catalog-btn" id="lap-btn">Ноутбуки</button>
+                        <button class="catalog-btn" id="comp-btn">Мониторы</button>
+                        <button class="catalog-btn" id="lap-btn">Клавиатуры</button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card flex-column shadow modal-link" onclick="addInfo(1)" href="#modal-product">
+                        <div>
+                            <div class="type-catalog">
+                                Компьюетры
+                            </div>
+                        </div>
+                        <div class="flex-items-center-100p flex-column">
+                            <div class="card-img">
+                                <img src="img/ASUS ExpertCenter D7  D700MC-5114000680.png" alt="">
+                            </div>
+                            <div class="card-info">
+                                <p >
+                                    ASUS ExpertCenter D7  D700MC-5114000680
+                                </p>
+                                <p class="cost">
+                                    74 999 р.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex-column shadow modal-link" onclick="addInfo(2)" href="#modal-product">
+                        <div>
+                            <div class="type-catalog">
+                                Компьюетры
+                            </div>
+                        </div>
+                        <div class="flex-items-center-100p flex-column">
+                            <div class="card-img">
+                                <img src="img/ARDOR GAMING RAGE H306.png" alt="">
+                            </div>         
+                            <div class="card-info">
+                                <p>
+                                    ARDOR GAMING RAGE H306
+                                </p>
+                                <p class="cost">
+                                    87 499 р.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex-column shadow modal-link" onclick="addInfo(3)" href="#modal-product">
+                        <div>
+                            <div class="type-catalog">
+                                Ноутбуки
+                            </div>
+                        </div>
+                        <div class="flex-items-center-100p flex-column">
+                            <div class="card-img">
+                                <img src="img/MSI Modern 14 C12M-229RU.png" alt="">
+                            </div> 
+                            <div class="card-info">
+                                <p>
+                                    MSI Modern 14 C12M-229RU
+                                </p>
+                                <p class="cost">
+                                    52 999 р.
+                                </p>
+                            </div>
+                        </div>                  
+                    </div>
+                    <div class="card flex-column shadow modal-link" onclick="addInfo(4)" href="#modal-product">
+                        <div>
+                            <div class="type-catalog">
+                                Ноутбуки
+                            </div>
+                        </div>
+                        <div class="flex-items-center-100p flex-column">
+                            <div class="card-img">
+                                <img src="img/ASUS TUF Gaming A15  FA507NV-LP023.png" alt="">
+                            </div>
+                            <div class="card-info">
+                                <p>
+                                    ASUS TUF Gaming A15  FA507NV-LP023  
+                                </p>
+                                <p class="cost">
+                                    108 999 р.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex-column shadow modal-link" onclick="addInfo(5)" href="#modal-product">
+                        <div>
+                            <div class="type-catalog">
+                                Компьюетры
+                            </div>
+                        </div>
+                        <div class="flex-items-center-100p flex-column">
+                            <div class="card-img">
+                                <img src="img/Akko 5087B Plus Steam Engine.png" alt="">
+                            </div>
+                            <div class="card-info">
+                                <p>
+                                    Akko 5087B Plus Steam Engine
+                                </p>
+                                <p class="cost">
+                                    9 499 р.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex-column shadow modal-link" onclick="addInfo(6)" href="#modal-product">
+                        <div>
+                            <div class="type-catalog">
+                                Компьюетры
+                            </div>
+                        </div>
+                        <div class="flex-items-center-100p flex-column">
+                            <div class="card-img">
+                                <img src="img/ARDOR GAMING LINK AF24H1UE.png" alt="">
+                            </div>
+                            
+                            <div class="card-info">
+                                <p>
+                                    ARDOR GAMING LINK AF24H1UE
+                                </p>
+                                <p class="cost">
+                                    13 199 р.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex-column shadow modal-link" onclick="addInfo(7)" href="#modal-product">
+                        <div>
+                            <div class="type-catalog">
+                                Ноутбуки
+                            </div>
+                        </div>
+                        <div class="flex-items-center-100p flex-column">
+                            <div class="card-img">
+                                <img src="img/Dark Project KD83A.png" alt="">
+                            </div>
+                            
+                            <div class="card-info">
+                                <p>
+                                    Dark Project KD83A
+                                </p>
+                                <p class="cost">
+                                    9 999 р.
+                                </p>
+                            </div>
+                        </div>                  
+                    </div>
+                    <div class="card flex-column shadow modal-link" onclick="addInfo(8)" href="#modal-product">
+                        <div>
+                            <div class="type-catalog">
+                                Ноутбуки
+                            </div>
+                        </div>
+                        <div class="flex-items-center-100p flex-column">
+                            <div class="card-img">
+                                <img src="img/Philips 278E1A.png" alt="">
+                            </div>
+                            <div class="card-info">
+                                <p>
+                                    Philips 278E1A 
+                                </p>
+                                <p class="cost">
+                                    25 999 р.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block">
+            <div class="container">
+                <h2><a name="team"></a>Наша команда</h2>
+                <p class="text">
+                    В основе нашего успеха - команда высококвалифицированных специалистов, готовых решать самые 
+                    сложные задачи в области информационных технологий. Наши эксперты обладают обширным опытом в 
+                    сфере компьютерных технологий, что позволяет нам предоставлять услуги на высочайшем уровне. 
+                </p>
+            </div>
+        </section>
+        <div class="gray-block shadow">
+            <a name="brands"></a>
+            <div class="small-container flex-items-center-100p">
+                <div class="gray-text">
+                    XIAOMI 
+                </div>
+                <div class="gray-text">
+                    MSI 
+                </div>
+                <div class="gray-text">
+                    ASUS 
+                </div>
+                <div class="gray-text">
+                    ARDOR 
+                </div>
+                <div class="gray-text">
+                    SELECTEL 
+                </div>
+                <div class="gray-text">
+                    ACER 
+                </div>
+                <div class="gray-text">
+                    APPLE
+                </div>
+            </div>
+        </div>
+        <section class="block">
+            <div class="container">
+                <h2><a name="advantages"></a>Наши преимущества</h2>
+                <div class="flex-items-center">
+                    <div class="flex-column flex-align-center card-advantages">
+                        <img src="img/бумажка.png" alt="" class="img-advantages">
+                        <br>
+                        <span class="span-advantages">ЭКСТПРЕСС РЕМОНТ</span>
+                    </div>
+                    <div class="flex-column flex-align-center card-advantages">
+                        <img src="img/биби.png" alt="" class="img-advantages">
+                        <br>
+                        <span class="span-advantages">ЭКСТПРЕСС ДОСТАВКА</span>
+                    </div>
+                    <div class="flex-column flex-align-center card-advantages">
+                        <img src="img/сервер.png" alt="" class="img-advantages">
+                        <br>
+                        <span class="span-advantages">ЭКСТПРЕСС СЕРВЕРА</span>
+                    </div>
+                    <div class="flex-column flex-align-center card-advantages">
+                        <img src="img/чел.png" alt="" class="img-advantages">
+                        <br>
+                        <span class="span-advantages">ЭКСТПРЕСС КОНСУЛЬТАЦИИ</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block about">
+            <div class="container">
+                <h2><a name="about"></a>О нас</h2>
+                <p class="text">
+                    PCIexpress - ваш надежный партнер в мире высокотехнологичных решений для информационных технологий!
+                    Мы являемся уникальным компьютерным центром, специализирующимся на продаже высокопроизводительных
+                    компьютеров, качественном ремонте техники и предоставлении серверов в аренду.
+                    Наша миссия - обеспечить клиентов передовыми технологиями для успешного развития их бизнеса.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer class="shadow">
+        <div class="small-container flex">
+            <div class="block footer-block">
+                <img src="img/лого.png" alt="">
+                <p class="footer-text">
+                    Мы являемся уникальным компьютерным центром, специализирующимся
+                    на продаже высокопроизводительных компьютеров, качественном ремонте
+                    техники и предоставлении серверов в аренду.
+                </p>
+                <p class="footer-text copyright">
+                    Copyright © 2023 PCIexpress
+                </p>
+            </div>
+            <div class="block footer-block flex">  
+                <div class="footer-information">
+                    <p class="footer-text-header">
+                        Компания PCIexpress
+                    </p>
+                    <p class="footer-text">
+                        О нас
+                    </p>
+                    <p class="footer-text">
+                        Наши преимущества
+                    </p>
+                    <p class="footer-text">
+                        Наша команда
+                    </p>
+                </div>
+                <div class="footer-information">
+                    <p class="footer-text-header">
+                        Помощь
+                    </p>
+                    <p class="footer-text">
+                        Как оформить заказ
+                    </p>
+                    <p class="footer-text">
+                        Способы оплаты
+                    </p>
+                    <p class="footer-text">
+                        Обмен и возврта товара
+                    </p>
+                </div>
+                <div class="footer-information">
+                    <p class="footer-text-header">
+                        Покупателем
+                    </p>
+                    <p class="footer-text">
+                        Каталог
+                    </p>
+                    <p class="footer-text">
+                        Бренды
+                    </p>
+                    <p class="footer-text">
+                        Новости
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальное окно заказа звонка -->
+    <div id="modal-ring" class="modal">
+        <div class="modal-body flex-center flex-align-center">
+            <div class="modal-content">
+                <a class="modal-close close-modal">x</a>
+                <div class="modal-title">
+                    Заказать звонок
+                </div>
+                <div class="flex-column">
+                    <div class="modal-input-container">
+                        <input class="modal-input" type="text" value="" placeholder="Имя">             
+                    </div>
+                    <div class="modal-input-container">
+                        <input class="modal-input" type="text" value="" placeholder="Email"> 
+                    </div>
+                    <div class="modal-input-container">
+                        <input class="modal-input" type="text" value="" placeholder="Номер телефона">    
+                    </div>
+                    <div class="modal-input-container flex-end">
+                        <input class="modal-btn close-modal" type="button" value="Заказать звонок">
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальное окно товара -->
+    <div id="modal-product" class="modal">
+        <div class="modal-body flex-center flex-align-center">
+            <div class="modal-content">
+                <a class="modal-close close-modal">x</a>
+                <div class="modal-title">
+                    <span id="name-product"></span>
+                </div>
+                <img id="img-product" alt="">
+                <div class="modal-cost">
+                    <span id="cost-product"></span>
+                </div>
+                <div class="modal-input-container flex-end">
+                    <input class="modal-btn close-modal" type="button" value="Купить">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

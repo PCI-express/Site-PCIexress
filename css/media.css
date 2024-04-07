@@ -1,0 +1,79 @@
+@media(max-width: 1400px){
+    .container{
+        width: 879px;
+        margin: 0 auto;
+    }
+    .small-container{
+        width: 1079px;
+        margin: 0 auto;
+    }
+    .header-info span{
+        font-size: 43pt;
+    }
+    .header-info p{
+        font-size: 16pt;
+    }
+    .header-info button{
+        font-size: 10pt;
+        padding: 10px 30px;
+    }
+    .card{
+        height: 330px;
+        width: 200px;
+    }
+    .card img{
+        width: 140px
+    }
+    .news{
+        height: 250px;
+    }
+    .header-info img{
+        height: 110px;
+    }
+}
+@media(max-width: 1200px){
+    .container{
+        width: 679px;
+        margin: 0 auto;
+    }
+    .small-container{
+        width: 879px;
+        margin: 0 auto;
+    }
+    .cards{
+        grid-template-columns: repeat(3, auto);
+        padding: 0;
+    }
+    .card{
+        height: 300px;
+        width: 200px;
+    }
+    .card img{
+        width: 120px
+    }
+    .gray-text{
+        font-size: 24pt;
+    }
+    .header-info img{
+        height: 75px;
+    }
+    .phone-number{
+        font-size: 10pt;
+    }
+    .header-btn{
+        margin-left: 20px;
+        width: 100px;
+        height: 30px;
+        font-size: 6pt;
+    }
+    input{
+        padding: 8px 0 8px 20px;
+        font-size: 10px;
+    }
+    .subscribe-button{
+        padding: 8px 20px;
+    }
+    .news{
+        height: 250px;
+    }
+}

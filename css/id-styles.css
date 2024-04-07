@@ -1,0 +1,26 @@
+#news-1{
+    background-image: url(../img/синий.jpg);
+}
+#news-2{
+    background-image: url(../img/люди.jpg);
+}
+#news-3{
+    background-image: url(../img/мать.jpg);
+}
+#news-4{
+    background-image: url(../img/домик.jpg);
+}
+#all-btn{
+    background-color: #f8ac28;
+    color: #fff;
+}
+#bg-img{
+    background-image: url("../img/черный.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    transform: translate3d(0, calc(var(--scrollTop) / 1.5), 0);
+}
