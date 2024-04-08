@@ -20,6 +20,7 @@
     padding: 30px;
     position: relative;
     border-radius: 15px;
+    max-width: 500px;
 }
 .modal-close{
     position: absolute;
@@ -32,6 +33,7 @@
 .modal-title{
     font-size: 30pt;
     margin: 15px 0 30px 0;
+    text-align: center;
 }
 .modal-input{
     padding: 10px 30px;
@@ -59,4 +61,11 @@
 .modal.open{
     opacity: 1;
     visibility: visible;
+}
+#img-product{
+    max-width: 100%;
+}
+.modal-cost{
+    margin-top: 50px;
+    font-size: 20pt;
 }

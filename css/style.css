@@ -142,6 +142,8 @@ input::placeholder{
     background: #fff;
     padding: 15px 50px;
     transition: background-color 0.1s linear;
+    text-decoration: none;
+    color: #000;
 }
 .title-btn:hover{
     background-color: rgb(224, 224, 224);
